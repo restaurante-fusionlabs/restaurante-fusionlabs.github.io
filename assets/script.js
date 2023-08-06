@@ -1,6 +1,6 @@
+// FusionLabs - restaurant sophidsticated page | JavaScript
+
 'use strict';
-
-
 
 /**
  * PRELOAD
