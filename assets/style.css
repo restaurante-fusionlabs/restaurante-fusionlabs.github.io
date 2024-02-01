@@ -97,7 +97,6 @@
    * BORDER RADIUS
    */
 
-  --radius-6: 6px;
   --radius-24: 24px;
   --radius-circle: 50%;
 
@@ -110,6 +109,9 @@
   --transition-3: 1000ms ease;
 
 }
+
+
+
 
 
 /*-----------------------------------*\
@@ -191,6 +193,8 @@ body.nav-active { overflow: hidden; }
 
 
 
+
+
 /*-----------------------------------*\
   #TYPOGRAPHY
 \*-----------------------------------*/
@@ -245,6 +249,8 @@ body.nav-active { overflow: hidden; }
 .label-1 { font-size: var(--fontSize-label-1); }
 
 .label-2 { font-size: var(--fontSize-label-2); }
+
+
 
 
 
@@ -676,10 +682,6 @@ body.nav-active { overflow: hidden; }
 
 .navbar .close-btn:is(:hover, :focus-visible) { color: var(--gold-crayola); }
 
-#logo{
-  width: 20rem;
-}
-
 .navbar .logo {
   max-width: max-content;
   margin-inline: auto;
@@ -798,7 +800,6 @@ body.nav-active { overflow: hidden; }
 }
 
 .hero .slider-bg {
-  opacity: 0.4;
   position: absolute;
   top: 0;
   left: 0;
@@ -1009,10 +1010,6 @@ body.nav-active { overflow: hidden; }
   margin-block-end: 12px;
 }
 
-.special-dish .img-cover{
-  opacity: 0.4;
-}
-
 .special-dish .section-text { margin-block: 16px 40px; }
 
 .special-dish-content .wrapper {
@@ -1052,7 +1049,7 @@ body.nav-active { overflow: hidden; }
 
 .hover\:card .card-banner { background-color: var(--gold-crayola); }
 
-.hover\:card .card-banner .img-cover { transition: var(--transition-2); width: 100px;}
+.hover\:card .card-banner .img-cover { transition: var(--transition-2); }
 
 .hover\:card:is(:hover, :focus-within) .card-banner .img-cover {
   opacity: 0.7;
@@ -1061,7 +1058,7 @@ body.nav-active { overflow: hidden; }
 
 .menu-card .card-banner {
   flex-shrink: 0;
-  border-radius: var(--radius-6);
+  border-radius: var(--radius-24);
 }
 
 .menu-card .card-title { transition: var(--transition-1); }
@@ -1121,7 +1118,6 @@ body.nav-active { overflow: hidden; }
 /*-----------------------------------*\
   #TESTIMONIALS
 \*-----------------------------------*/
-
 
 .testi {
   padding-block-end: 340px;
